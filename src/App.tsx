@@ -14,10 +14,14 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Header></Header>
-      <Contact></Contact>
       <Hero></Hero>
+      <hr />
       <AboutMe></AboutMe>
+      <hr />
       <Proyectos></Proyectos>
+      <hr />
+      <Contact></Contact>
+      <hr />
       <Footer></Footer>
       
     </ThemeProvider>
