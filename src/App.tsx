@@ -1,35 +1,29 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './components/Header/Header';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      <Header title="Portafolio Alex" />
+      
+      <section id="hero" style={{ height: '100vh', backgroundColor: '#f0f0f0' }}>
+        <h1>Hero Section</h1>
+      </section>
+
+      <section id="sobre-mi" style={{ height: '100vh', backgroundColor: '#d0d0d0' }}>
+        <h1>Sobre Mí</h1>
+      </section>
+
+      <section id="proyectos" style={{ height: '100vh', backgroundColor: '#b0b0b0' }}>
+        <h1>Proyectos</h1>
+      </section>
+
+      <section id="contacto" style={{ height: '100vh', backgroundColor: '#909090' }}>
+        <h1>Contacto</h1>
+      </section>
+    </div>
+  );
 }
 
 export default App
