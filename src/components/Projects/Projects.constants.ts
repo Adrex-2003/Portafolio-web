@@ -26,7 +26,7 @@ export const PROYECTOS: Proyecto[] = [
     id: 'p4',
     titulo: 'Blog Tecnológico',
     descripcion: 'Blog con CMS headless y Next.js.',
-    imagen: 'https://swebsas.softwarewebsas.com/public/images/blog/dev.webp',
+    imagen: 'https://png.pngtree.com/background/20250118/original/pngtree-computer-of-a-programmer-with-lines-code-of-software-picture-image_15533604.jpg',
     enlace: '#',
   },
 ];

@@ -1,7 +1,6 @@
 import type { SxProps, Theme } from "@mui/material";
 
 export const footerContainer: SxProps<Theme> = (theme) => ({
-  marginTop: theme.spacing(8),
   padding: theme.spacing(4, 2),
   backgroundColor: theme.palette.background.paper,
   borderTop: `1px solid ${theme.palette.divider}`,

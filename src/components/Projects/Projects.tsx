@@ -42,6 +42,7 @@ const Proyectos = () => {
         sx={{
           marginTop: theme.spacing(2),
         }}
+        
       >
         {PROYECTOS.map((proyecto) => (
           <Box
