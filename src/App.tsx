@@ -15,9 +15,9 @@ function App() {
     <ThemeProvider theme={theme}>
       <Header></Header>
       <Contact></Contact>
-      <Hero nombre={''} rol={''} mensaje={''} foto={''}></Hero>
+      <Hero></Hero>
+      <AboutMe></AboutMe>
       <Proyectos></Proyectos>
-      <AboutMe nombre='Adrex' bio={''} foto={''} experiencia={''} enfoque={''} tecnologias={''}></AboutMe>
       <Footer></Footer>
       
     </ThemeProvider>

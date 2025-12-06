@@ -19,7 +19,7 @@ export const titleStyle: SxProps<Theme> = (theme) => ({
 export const formControlStyle: SxProps<Theme> = (theme) => ({
   marginBottom: theme.spacing(2),
   "& .MuiInputBase-root": {
-    backgroundColor: theme.palette.background.default,
+    backgroundColor: theme.palette.background.paper,
     color: theme.palette.text.primary,
   },
   "& .MuiInputLabel-root": {

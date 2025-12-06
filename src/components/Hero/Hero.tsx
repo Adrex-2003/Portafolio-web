@@ -1,9 +1,10 @@
 import { Button, Container, Typography } from "@mui/material";
 import { HeroContainer, HeroContent, HeroImage } from "./Hero.styles";
-import type { HeroProps } from './Hero.types';
-import { CTA_TEXT } from './Hero.constants';
+import { CTA_TEXT, HERO_DATA } from './Hero.constants';
 
-const Hero: React.FC<HeroProps> = ({ nombre, rol, mensaje, foto }) => {
+const Hero: React.FC = () => {
+  const { nombre, rol, mensaje, foto } = HERO_DATA;
+
   return (
     <HeroContainer id="hero">
       <Container maxWidth="lg">

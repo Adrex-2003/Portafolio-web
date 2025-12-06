@@ -1,4 +1,4 @@
-export interface HeroProps {
+export type HeroData = {
   nombre: string;
   rol: string;
   mensaje: string;
